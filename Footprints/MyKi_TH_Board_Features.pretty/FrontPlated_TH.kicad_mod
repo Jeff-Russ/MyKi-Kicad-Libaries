@@ -1,0 +1,11 @@
+(module FrontPlated_TH (layer F.Cu) (tedit 59FE8002)
+  (descr "module 1 pin (ou trou mecanique de percage)")
+  (tags DEV)
+  (fp_text reference REF** (at 0 -0.82296) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.02)))
+  )
+  (fp_text value FrontPlated_TH (at -0.00508 0.80772) (layer Dwgs.User) hide
+    (effects (font (size 0.127 0.127) (thickness 0.02)))
+  )
+  (pad "" thru_hole circle (at 0 0) (size 1.4 1.4) (drill 1) (layers *.Mask F.Cu))
+)
