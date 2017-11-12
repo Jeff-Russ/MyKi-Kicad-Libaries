@@ -1,0 +1,38 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BBD-Short
+D BBD-Short
+K BBD short MN3209
+$ENDCMP
+#
+$CMP BBD-Short-Clk
+D BBD-Short-Clock
+K MN3102 BBD short clock
+$ENDCMP
+#
+$CMP BBD_Short
+D BBD Short
+K MN3209 BBD
+$ENDCMP
+#
+$CMP BBD_Short_Clk
+D BBD-Short Clock
+K MN3102 bbd short clock
+$ENDCMP
+#
+$CMP Dual-Op-Amp
+D Dual Op-Amp
+K dual op-amp opamp operational amplifier
+$ENDCMP
+#
+$CMP NE571
+D NE571 Compandor
+K NE571 compandor compander
+$ENDCMP
+#
+$CMP Quad-Op-Amp
+D Quad Op-Amp
+K quad opamp op-amp operational amplifier
+$ENDCMP
+#
+#End Doc Library

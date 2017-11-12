@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DPDT
+D DPDT Switch
+K switch double-pole double-throw DPDT ON-ON
+$ENDCMP
+#
+#End Doc Library

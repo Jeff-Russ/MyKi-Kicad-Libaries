@@ -1,0 +1,50 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Jumper_Wire
+#
+DEF ~Jumper_Wire JP 0 0 N Y 1 F N
+F0 "JP" 25 25 25 H V C CNN
+F1 "Jumper_Wire" 25 -30 8 H I C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 50 0 50 V I C CNN
+ALIAS Wire
+DRAW
+A 25 50 56 -1166 -634 0 1 4 N 0 0 50 0
+A 25 80 84 -1074 -726 0 1 4 N 0 0 50 0
+X ~ 1 0 0 25 R 50 50 1 1 P
+X ~ 2 50 0 25 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Pad
+#
+DEF ~Pad P 0 0 N Y 1 F N
+F0 "P" 25 25 25 H V C CNN
+F1 "Pad" 25 -30 8 H I C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 50 0 50 V I C CNN
+$FPLIST
+ P_*
+$ENDFPLIST
+DRAW
+C 26 0 11 0 1 4 F
+X ~ 1 0 0 25 R 50 50 1 1 P
+X ~ 2 50 0 25 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TH
+#
+DEF ~TH TH 0 0 N N 1 F N
+F0 "TH" 25 25 25 H V C CNN
+F1 "TH" 25 -30 8 H I C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 50 0 50 V I C CNN
+DRAW
+X ~ 1 0 0 25 R 50 50 1 1 P
+X ~ 2 50 0 25 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

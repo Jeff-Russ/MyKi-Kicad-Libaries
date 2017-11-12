@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Jumper_Wire
+D Jumper Wire
+K jp j jumper w wire jw p pad v via th hole
+$ENDCMP
+#
+$CMP Pad
+D Pad
+K p pad v via
+$ENDCMP
+#
+$CMP TH
+D Double Sided Through Hole
+K th hole v via p pad
+$ENDCMP
+#
+#End Doc Library
