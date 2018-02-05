@@ -1,23 +1,19 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 78L05 
+D Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92
+K Voltage Regulator 100mA Positive
+F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
+$ENDCMP
+#
 $CMP BBD-Short
 D BBD-Short
 K BBD short MN3209
 $ENDCMP
 #
 $CMP BBD-Short-Clk
-D BBD-Short-Clock
-K MN3102 BBD short clock
-$ENDCMP
-#
-$CMP BBD_Short
-D BBD Short
-K MN3209 BBD
-$ENDCMP
-#
-$CMP BBD_Short_Clk
 D BBD-Short Clock
-K MN3102 bbd short clock
+K MN3102 BBD short clock
 $ENDCMP
 #
 $CMP Dual-Op-Amp
@@ -28,6 +24,12 @@ $ENDCMP
 $CMP NE571
 D NE571 Compandor
 K NE571 compandor compander
+$ENDCMP
+#
+$CMP PT2399 
+D Echo Processor IC
+K CMOS ADC DAC 44K Digital processing VCO
+F http://www.princeton.com.tw/Portals/0/Product/PT2399_1.pdf
 $ENDCMP
 #
 $CMP Quad-Op-Amp

@@ -5,4 +5,9 @@ D DPDT Switch
 K switch double-pole double-throw DPDT ON-ON
 $ENDCMP
 #
+$CMP SPDT
+D DPDT Switch
+K switch double-pole double-throw DPDT ON-ON
+$ENDCMP
+#
 #End Doc Library

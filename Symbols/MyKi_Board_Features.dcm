@@ -1,18 +1,68 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP Jumper_Wire
-D Jumper Wire
-K jp j jumper w wire jw p pad v via th hole
+$CMP F-M-Pins
+D Female Pin with Male Pin Connected (Ref + Val)
+K th through hole v via pad plug wire p pin female male connector
 $ENDCMP
 #
-$CMP Pad
-D Pad
-K p pad v via
+$CMP F-M-Pins_Ref
+D Female Pin with Male Pin Connected (no Value)
+K th through hole v via pad plug wire p pin female male connector
 $ENDCMP
 #
-$CMP TH
-D Double Sided Through Hole
-K th hole v via p pad
+$CMP FPin
+D Female Pin Connector with Value
+K pad plug wire p pin female connector
+$ENDCMP
+#
+$CMP FPin_Ref
+D Female Pin Connector without Value
+K pad plug wire p pin female connector
+$ENDCMP
+#
+$CMP M-F-Pins
+D Male Pin with Female Pin Connected (Ref + Val)
+K th through hole v via pad plug wire p pin female male connector
+$ENDCMP
+#
+$CMP M-F-Pins_Ref
+D Male Pin with Female Pin Connected (no Valuel)
+K th through hole v via pad plug wire p pin female male connector
+$ENDCMP
+#
+$CMP MPin
+D Male Pin Connector with Value
+K male plug p pin connector
+$ENDCMP
+#
+$CMP MPin_Ref
+D Male Pin Connector without Value
+K male plug p pin connector
+$ENDCMP
+#
+$CMP TH-Via
+D Through-Hole Via for Plug, Wire or Pin
+K th through hole v via pad plug wire p pin connector
+$ENDCMP
+#
+$CMP TH-Wire
+D Through-Hole with Wire (Value + Ref)
+K th through hole pad wire thw connector
+$ENDCMP
+#
+$CMP TH-Wire_Ref
+D Through-Hole with Wire (no Value)
+K th through hole pad wire thw connector
+$ENDCMP
+#
+$CMP Wire
+D Wire with Value
+K wire jumper link w connector
+$ENDCMP
+#
+$CMP Wire_Ref
+D Wire without Value
+K wire jumper link w connector
 $ENDCMP
 #
 #End Doc Library

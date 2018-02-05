@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Dual_Pot
+D Dual Potentiometer
+K resistor variable
+$ENDCMP
+#
+$CMP Pot
+D Potentiometer
+K resistor variable
+$ENDCMP
+#
+#End Doc Library

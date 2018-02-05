@@ -1,0 +1,16 @@
+(module TH_Wire_unlabeled (layer F.Cu) (tedit 5A10E0DC)
+  (tags "th hole double via")
+  (fp_text reference REF** (at 0 -0.127) (layer F.Fab) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (fp_text value VAL** (at 0 0.127) (layer F.Fab) hide
+    (effects (font (size 0.127 0.127) (thickness 0.03175)))
+  )
+  (pad 2 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.1) (layers *.Mask F.Cu))
+  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.1) (layers *.Mask B.Cu))
+  (model MyKi/TH_Connectors/TH_Pin.wrl
+    (at (xyz 1.6 -0.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

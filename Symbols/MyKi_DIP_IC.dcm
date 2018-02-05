@@ -20,6 +20,12 @@ D NE571 Compandor
 K NE571 compandor compander
 $ENDCMP
 #
+$CMP PT2399 
+D Echo Processor IC
+K CMOS ADC DAC 44K Digital processing VCO
+F http://www.princeton.com.tw/Portals/0/Product/PT2399_1.pdf
+$ENDCMP
+#
 $CMP Quad-Op-Amp
 D Quad Op-Amp
 K quad opamp op-amp operational amplifier

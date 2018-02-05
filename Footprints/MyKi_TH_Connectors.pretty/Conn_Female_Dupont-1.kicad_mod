@@ -1,0 +1,16 @@
+(module Conn_Female_Dupont-1 (layer F.Cu) (tedit 5A3B440A)
+  (tags "th hole double via")
+  (fp_text reference REF** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.56) (thickness 0.1)))
+  )
+  (fp_text value VAL** (at 2.032 0) (layer F.SilkS)
+    (effects (font (size 0.7 0.56) (thickness 0.14)))
+  )
+  (pad 2 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.1) (layers *.Mask F.Cu))
+  (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.1) (layers *.Mask B.Cu))
+  (model MyKi/TH_Connectors/conn_female_dupont_1.wrl
+    (at (xyz 1.6 -0.75 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

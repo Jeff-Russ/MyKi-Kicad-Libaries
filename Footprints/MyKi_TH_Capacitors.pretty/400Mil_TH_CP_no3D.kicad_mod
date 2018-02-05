@@ -1,4 +1,4 @@
-(module 400Mil_TH_CP (layer F.Cu) (tedit 5A07FC5D)
+(module 400Mil_TH_CP_no3D (layer F.Cu) (tedit 5A07FC5D)
   (descr "C, Disc series, Radial, pin pitch=10.00mm, , diameter*width=7.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
   (tags "C Disc series Radial pin pitch 10.00mm  diameter 7.5mm width 5.0mm Capacitor")
   (fp_text reference REF** (at 2.794 -0.508) (layer F.SilkS)
@@ -21,9 +21,4 @@
   (fp_line (start 4.826 -0.762) (end 4.826 0.762) (layer F.SilkS) (width 0.08))
   (pad 1 thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 10.16 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Capacitors_THT.3dshapes/C_Disc_D7.5mm_W5.0mm_P10.00mm.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
