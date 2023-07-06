@@ -1,0 +1,88 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +12V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5VD
+D (digital) +5 Volts DC
+K digital power rail
+$ENDCMP
+#
+$CMP +5V 
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +A
+D (analog) Positive Voltage Supply
+K positive analog power rail dc
+$ENDCMP
+#
+$CMP +D
+D (digital) Positive Voltage Supply
+K positive digital power rail dc
+$ENDCMP
+#
+$CMP +DC
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +VDC 
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -5VD
+D (digital) -5 Volts DC
+K digital negative rail
+$ENDCMP
+#
+$CMP -A
+D (analog) Negative Voltage Supply
+K negative analog power rail dc
+$ENDCMP
+#
+$CMP -D
+D (digital) Negative Voltage Supply
+K digital negative rail
+$ENDCMP
+#
+$CMP -VDC 
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP A+12V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP A-12V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP AG
+D (analog) ground power-flag symbol
+K Power Flag Symbol gnda agnd gnd
+$ENDCMP
+#
+$CMP BG
+D (analog) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP DG
+D (digital) ground power-flag symbol
+K Power Flag Symbol gndd dgnd gnd
+$ENDCMP
+#
+$CMP GND 
+D ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+#End Doc Library

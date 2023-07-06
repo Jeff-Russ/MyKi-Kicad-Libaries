@@ -1,13 +1,61 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Audio-Jack-3_Switch
+D 3-pin audio jack receptable (stereo/TRS connector) with 2 switching contacts
+K audio jack receptable stereo headphones phones TRS connector
+F ~
+$ENDCMP
+#
 $CMP DPDT
 D DPDT Switch
 K switch double-pole double-throw DPDT ON-ON
 $ENDCMP
 #
+$CMP DPDT_Spaced
+D DPDT Switch
+K switch double-pole double-throw DPDT ON-ON
+$ENDCMP
+#
+$CMP DPST
+D DPST Switch
+K switch double-pole single-throw DPST OFF-ON
+$ENDCMP
+#
+$CMP RELAY_RT1_SPNO
+D RT1 series relay, SPNO
+K relay RT1
+$ENDCMP
+#
 $CMP SPDT
 D DPDT Switch
 K switch double-pole double-throw DPDT ON-ON
+$ENDCMP
+#
+$CMP SPDT_Center_Off
+D DPDT Switch with Center OFF
+K switch double-pole double-throw DPDT ON-OFF-ON
+$ENDCMP
+#
+$CMP SPST
+D SPST Switch
+K switch single-pole single-throw SPST OFF-ON
+$ENDCMP
+#
+$CMP SW_Rotary2x6
+D 2 rotary switch with 6 positions
+K rotary switch
+F http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
+$ENDCMP
+#
+$CMP SW_Rotary4x3
+D 4 rotary switches with 3 positions
+K rotary switch
+F http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf
+$ENDCMP
+#
+$CMP SW_SP4T
+D switch with 4 positions
+K rotary switch
 $ENDCMP
 #
 #End Doc Library

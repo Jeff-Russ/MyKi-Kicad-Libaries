@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2POS_SEL
+D 2POS_SEL
+$ENDCMP
+#
+$CMP 3POS_SEL
+D 3POS_SEL
+$ENDCMP
+#
+$CMP Knob
+D Knob
+$ENDCMP
+#
+#End Doc Library

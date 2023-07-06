@@ -1,0 +1,11 @@
+(module Labled-Circle (layer F.Cu) (tedit 5ACEBFA6)
+  (tags "label labeled circle node ")
+  (attr virtual)
+  (fp_text reference VAL** (at 0 2.54) (layer F.Adhes)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
+  (fp_text value REF** (at 0 -2.54 180) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 0.762 0.508) (layer F.Adhes) (width 0.4))
+)

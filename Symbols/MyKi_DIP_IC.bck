@@ -1,11 +1,5 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 78L05 
-D Positive 100mA 30V Linear Regulator, Fixed Output 5V, TO-92
-K Voltage Regulator 100mA Positive
-F http://www.fairchildsemi.com/ds/LM/LM78L05A.pdf
-$ENDCMP
-#
 $CMP BBD-Short
 D BBD-Short
 K BBD short MN3209
@@ -16,14 +10,110 @@ D BBD-Short Clock
 K MN3102 BBD short clock
 $ENDCMP
 #
+$CMP BBD-Short-Clk-Functional
+D BBD Short Clock Functional Symbol
+K BBD short MN3102
+$ENDCMP
+#
+$CMP BBD-Short-Clk-LG
+D BBD-Short Clock LG
+K MN3102 BBD short clock
+$ENDCMP
+#
+$CMP BBD-Short-Functional
+D BBD Short Functional Symbol
+K BBD short MN3209
+$ENDCMP
+#
+$CMP BBD-Short-LG
+D BBD-Short-LG
+K BBD short MN3209
+$ENDCMP
+#
 $CMP Dual-Op-Amp
 D Dual Op-Amp
 K dual op-amp opamp operational amplifier
 $ENDCMP
 #
+$CMP Dual-Op-Amp_PWR-B
+D Dual Operational Amplifier Symbols
+K opamp op amp
+$ENDCMP
+#
+$CMP Dual-Op-Amp_big
+D Dual Op-Amp
+K dual op-amp opamp operational amplifier
+$ENDCMP
+#
+$CMP Dual-Unit-Op-Amp
+D Dual Operational Amplifier Symbols
+K opamp op amp
+$ENDCMP
+#
+$CMP Dual-Unit-Op-Amp-inv-pwr
+D Dual Operational Amplifier Symbols (+V on -Input side)
+K opamp op amp
+$ENDCMP
+#
+$CMP LM13700x
+D Dual Operational Transconductance Amplifiers with Linearizing Diodes and Buffers, DIP-16/SOIC-16
+K operational transconductance amplifier OTA
+F http://www.ti.com/lit/ds/symlink/lm13700.pdf
+$ENDCMP
+#
+$CMP LM556
+D Dual Timer, DIP-14/SOIC-14
+K dual timer
+F http://www.ti.com/lit/ds/symlink/lm556.pdf
+$ENDCMP
+#
+$CMP MC3X063A
+D MC3X063A DC-DC Regulator
+K MC34063A MC33063A MC3X063A
+$ENDCMP
+#
+$CMP Multi-Unit-Op-Amp
+D Operational Amplifier Symbols (+V on -Input side) 4 Units
+K opamp op amp quad dual
+$ENDCMP
+#
 $CMP NE571
 D NE571 Compandor
 K NE571 compandor compander
+F https://www.onsemi.com/pub/Collateral/SA571-D.PDF
+$ENDCMP
+#
+$CMP NE571_Functional
+D NE571 Compandor (2 Unit, Functional)
+K NE571 compandor compander
+F https://www.onsemi.com/pub/Collateral/SA571-D.PDF
+$ENDCMP
+#
+$CMP NE571_Functional2
+D NE571 Compandor (2 Unit, Functional)
+K NE571 compandor compander
+F https://www.onsemi.com/pub/Collateral/SA571-D.PDF
+$ENDCMP
+#
+$CMP NJM2090
+D NJM2090 VCF IC
+K VCF IC
+$ENDCMP
+#
+$CMP Op-Amp_noPower
+D Operational Amp Symbol without Power Pins
+K opamp op amp
+$ENDCMP
+#
+$CMP Op-Amp_wPower
+D Operational Amp Symbol with Power Pins
+K opamp op amp
+$ENDCMP
+#
+$CMP PT2399_big
+D Echo Processor IC
+K CMOS ADC DAC 44K Digital processing VCO
+F http://sound.westhost.com/pt2399.pdf
 $ENDCMP
 #
 $CMP PT2399 
@@ -35,6 +125,32 @@ $ENDCMP
 $CMP Quad-Op-Amp
 D Quad Op-Amp
 K quad opamp op-amp operational amplifier
+$ENDCMP
+#
+$CMP Quad-Op-Amp_big
+D Quad Op-Amp
+K quad op-amp opamp operational amplifier
+$ENDCMP
+#
+$CMP Quad-Unit-Op-Amp
+D Quad Operational Amplifier Symbols
+K opamp op amp
+$ENDCMP
+#
+$CMP Quad-Unit-Op-Amp-inv-pwr
+D Quad Operational Amplifier Symbols (+V on -Input side)
+K opamp op amp
+$ENDCMP
+#
+$CMP TC4066
+D Quad Analog Switches
+K CMOS SWITCH
+F http://www.ti.com/lit/ds/symlink/cd4016b.pdf
+$ENDCMP
+#
+$CMP Temp
+D BBD-Short
+K BBD short MN3209
 $ENDCMP
 #
 #End Doc Library

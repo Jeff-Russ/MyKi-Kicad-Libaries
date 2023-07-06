@@ -5,9 +5,24 @@ D Dual Potentiometer
 K resistor variable
 $ENDCMP
 #
+$CMP Dual_Pot_Spaced
+D Dual Potentiometer
+K resistor variable
+$ENDCMP
+#
+$CMP Dual_Unit_Pot
+D Dual Potentiometer
+K resistor variable
+$ENDCMP
+#
 $CMP Pot
 D Potentiometer
 K resistor variable
+$ENDCMP
+#
+$CMP TRIM_POT
+D Trim-Potentiometer
+K resistor variable trimpot trimmer
 $ENDCMP
 #
 #End Doc Library
