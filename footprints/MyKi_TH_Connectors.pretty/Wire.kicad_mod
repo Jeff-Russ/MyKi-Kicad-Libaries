@@ -23,7 +23,7 @@
   (fp_line (start -0.1524 0) (end 0.1524 0) (layer F.Fab) (width 0.06))
   (pad 1 thru_hole rect (at -0.381 0) (size 0.4 0.4) (drill 0.0001) (layers *.Cu *.Mask))
   (pad 2 thru_hole rect (at 0.381 0) (size 0.4 0.4) (drill 0.0001) (layers *.Cu *.Mask))
-  (model MyKi/TH_Connectors/wire.wrl
+  (model "${KICAD_USER_3DMODEL_DIR}/TH_Connectors/wire.wrl"
     (at (xyz 0.014 -0.025 0))
     (scale (xyz 0.5 0.5 0.05))
     (rotate (xyz 90 -10 90))

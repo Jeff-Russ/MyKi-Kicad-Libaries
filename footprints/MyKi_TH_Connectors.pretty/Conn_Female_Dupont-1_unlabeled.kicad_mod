@@ -8,7 +8,7 @@
   )
   (pad 2 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.1) (layers *.Mask F.Cu))
   (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 1.1) (layers *.Mask B.Cu))
-  (model MyKi/TH_Connectors/conn_female_dupont_1.wrl
+  (model "${KICAD_USER_3DMODEL_DIR}/TH_Connectors/conn_female_dupont_1.wrl"
     (at (xyz 1.6 -0.75 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
